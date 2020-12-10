@@ -5,3 +5,6 @@
 	path = public
 	url = git@github.com:ribbybibby/ribbybibby.github.io.git
 	branch = master
+[submodule "themes/zozo"]
+	path = themes/zozo
+	url = git@github.com:varkai/hugo-theme-zozo.git

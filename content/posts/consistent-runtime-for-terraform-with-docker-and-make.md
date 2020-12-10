@@ -140,7 +140,7 @@ bash-4.4# make plan ARGS="-target=aws_s3_bucket.example"
 ```
 
 You can place the `Makefile` inside each project directory, alongside the `.tf` files. Or, what I prefer to do is to put it at the root of the repository as `common.makefile` and refer back to it with an `include` statement in a `Makefile` in each project. This avoids unnecessary duplication:
-```Makefile
+```
 include ../../common.makefile
 ```
 

@@ -1,37 +1,29 @@
 baseurl = "https://www.ribbybibby.me/"
-languageCode = "en-us"
-theme = "terminal"
+languageCode = "en"
+theme = "zozo"
 paginate = 5
+enableEmoji = true
+summaryLength = 50 
+
+pygmentsUseClasses = true
+pygmentCodeFences = true
+pygmentscodefencesguesssyntax = true
+
+title = "ROB BEST"
+
+[[menu.main]]
+  name = "Home"
+  weight = 10
+  url = "/"
+[[menu.main]]
+  name = "About"
+  weight = 20
+  identifier = "about"
+  url = "/about"
+
+[social]
+  github = "https://github.com/ribbybibby"
+  linkedin = "https://www.linkedin.com/in/ribbybibby/"
 
 [params]
-  contentTypeName = "posts"
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "orange"
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
-  # set theme to full screen width
-  fullWidthTheme = true
-  # center theme with default width
-  centerTheme = true
-  # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
-
-[languages]
-  [languages.en]
-    title = "ribbybibby"
-    subtitle = "A simple, retro theme for Hugo"
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-
-    [languages.en.params.logo]
-      logoText = "ribbybibby"
-      logoHomeLink = "/"
-
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "https://www.ribbybibby.me/about"
+  enableSummary = true
